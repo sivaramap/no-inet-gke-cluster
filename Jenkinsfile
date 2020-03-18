@@ -6,9 +6,10 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/sivaramap/no-inet-gke-cluster.git'
             }
         }
-  stages {
-     stage('Build') {
+      stage('Build') {
         steps {
            sh './deploy.sh'
         }
      }
+   }
+}
