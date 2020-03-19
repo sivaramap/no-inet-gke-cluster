@@ -1,5 +1,5 @@
 
-project_id = ""
+project_id = "mytraining-gcptech"
 cluster_region = "us-central1"
 cluster_zones = ["us-central1-a"]
 network_name = "gke-no-internet-network"
